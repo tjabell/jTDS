@@ -1360,7 +1360,7 @@ public class JtdsPreparedStatement extends JtdsStatement implements PreparedStat
     public void setNString(int parameterIndex, String value)
             throws SQLException {
         // TODO Auto-generated method stub
-        throw new AbstractMethodError();
+        setParameter(parameterIndex, value, java.sql.Types.VARCHAR, 0, 0);
     }
 
     /* (non-Javadoc)
