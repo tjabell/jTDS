@@ -18,6 +18,8 @@
 
 package net.sourceforge.jtds.jdbc;
 
+import junit.framework.TestCase;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -32,8 +34,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Iterator;
 import java.util.Properties;
-
-import junit.framework.TestCase;
 
 /**
  * @author  builder
