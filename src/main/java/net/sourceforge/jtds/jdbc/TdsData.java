@@ -1303,6 +1303,7 @@ public class TdsData {
         switch (jdbcType) {
             case Types.CHAR:
             case Types.VARCHAR:
+            case Types.NVARCHAR:
             case Types.LONGVARCHAR:
             case Types.CLOB:
                 if (pi.value == null) {
